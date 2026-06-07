@@ -866,7 +866,7 @@ textarea:focus { border-color: var(--brown); box-shadow: 0 0 0 4px rgba(139,90,4
     width: 30px !important;
     height: 3px !important;
 
-    background: #ffffff !important;
+    background: #8b5a2b !important;
     border-radius: 10px !important;
 }
 
@@ -880,4 +880,24 @@ textarea:focus { border-color: var(--brown); box-shadow: 0 0 0 4px rgba(139,90,4
   .hero {
     padding-top: 82px !important;
   }
+}
+/* ===== MOBILE MENU PREMIUM ===== */
+
+@media (max-width:768px){
+
+  .nav-links a{
+    color:#6b4420 !important;
+    font-weight:700 !important;
+    border-radius:8px !important;
+  }
+
+  .nav-links a:hover,
+  .nav-links a.is-active{
+    background:none !important;
+    color:#8b5a2b !important;
+    border-left:3px solid #8b5a2b;
+    padding-left:14px;
+    transform:none !important;
+  }
+
 }
