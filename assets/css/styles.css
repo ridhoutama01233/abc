@@ -1742,3 +1742,51 @@ textarea:focus { border-color: var(--brown); box-shadow: 0 0 0 4px rgba(139,90,4
     height: 210px;
   }
 }
+
+/* ================================
+   Product Filter Mobile Scroll
+================================ */
+
+@media (max-width: 620px) {
+  .product-catalog .filter-bar {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0.55rem;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin: 0 -0.6rem 1.35rem;
+    padding: 0.2rem 0.6rem 0.75rem;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .product-catalog .filter-bar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .product-catalog .filter-bar {
+    scrollbar-width: none;
+  }
+
+  .product-catalog .filter-btn {
+    flex: 0 0 auto;
+    white-space: nowrap;
+    scroll-snap-align: start;
+    padding: 0.62rem 0.88rem;
+    border-radius: 999px;
+    font-size: 0.84rem;
+    line-height: 1;
+    box-shadow: 0 10px 22px rgba(61, 38, 19, 0.08);
+  }
+
+  .product-catalog .filter-btn.active {
+    box-shadow: 0 12px 26px rgba(139, 90, 43, 0.22);
+  }
+}
+
+@media (max-width: 420px) {
+  .product-catalog .filter-btn {
+    padding: 0.58rem 0.78rem;
+    font-size: 0.8rem;
+  }
+}
