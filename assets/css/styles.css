@@ -1251,3 +1251,16 @@ textarea:focus { border-color: var(--brown); box-shadow: 0 0 0 4px rgba(139,90,4
     min-height:115px;
   }
 }
+
+@media(max-width:768px){
+  .brand-strip .banner-card{
+    background:#fff;
+  }
+
+  .brand-strip .banner-card img{
+    aspect-ratio:auto !important;
+    width:100% !important;
+    height:auto !important;
+    object-fit:contain !important;
+  }
+}
