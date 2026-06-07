@@ -1814,3 +1814,20 @@ textarea:focus { border-color: var(--brown); box-shadow: 0 0 0 4px rgba(139,90,4
 .product-inquiry-section + .site-footer {
   margin-top: 0;
 }
+/* ================================
+   Product Page Footer Gap Fix
+================================ */
+
+body[data-page="product"] main {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+body[data-page="product"] .product-inquiry-section {
+  padding-bottom: clamp(4.5rem, 7vw, 6.5rem);
+  margin-bottom: 0;
+}
+
+body[data-page="product"] .site-footer {
+  margin-top: 0;
+}
