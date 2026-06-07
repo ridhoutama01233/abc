@@ -766,3 +766,42 @@ textarea:focus { border-color: var(--brown); box-shadow: 0 0 0 4px rgba(139,90,4
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: .01ms !important; }
   .js .reveal { opacity: 1; transform: none; }
 }
+
+@media (max-width: 640px) {
+  .site-header {
+    top: 8px;
+  }
+
+  .navbar {
+    min-height: 54px;
+    padding: 0.42rem 0.55rem;
+    border-radius: 16px;
+  }
+
+  .brand {
+    gap: 0.45rem;
+  }
+
+  .brand img {
+    width: 34px;
+    height: 34px;
+  }
+
+  .brand span {
+    display: none;
+  }
+
+  .nav-toggle {
+    width: 38px;
+    height: 38px;
+    border-radius: 14px;
+  }
+
+  .nav-toggle span {
+    width: 18px;
+  }
+
+  .hero {
+    padding-top: 6.5rem;
+  }
+}
