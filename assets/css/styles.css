@@ -520,13 +520,13 @@ button, input, textarea, select { font: inherit; }
 .process-hero-card img { width: 100%; border-radius: var(--radius-xl); box-shadow: var(--soft-shadow); }
 .logo-float {
   position: absolute;
-  width: 108px;
-  height: 108px;
+  width: 70px;
+  height: 70px;
   object-fit: contain;
   right: -12px;
   top: -38px;
   border-radius: 24px;
-  background: var(--cream);
+  background: #a2aa78;
   padding: .48rem;
   box-shadow: var(--shadow);
   z-index: 2;
