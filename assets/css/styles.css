@@ -1089,3 +1089,52 @@ textarea:focus { border-color: var(--brown); box-shadow: 0 0 0 4px rgba(139,90,4
     border-radius:16px;
   }
 }
+
+.export-overview{
+  background:linear-gradient(
+    145deg,
+    rgba(237,229,216,.95),
+    rgba(255,250,241,.82)
+  );
+  border:1px solid rgba(139,90,43,.12);
+  border-radius:28px;
+  padding:2rem;
+  box-shadow:var(--soft-shadow);
+}
+
+.export-label{
+  color:var(--brown);
+  font-size:.8rem;
+  font-weight:900;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  margin-bottom:1.6rem;
+}
+
+.export-item{
+  display:flex;
+  align-items:flex-start;
+  gap:1rem;
+  padding:1rem 0;
+}
+
+.export-item:not(:last-child){
+  border-bottom:1px solid rgba(139,90,43,.08);
+}
+
+.export-icon{
+  font-size:1.7rem;
+  line-height:1;
+}
+
+.export-item strong{
+  display:block;
+  font-size:1.15rem;
+  color:var(--brown);
+  margin-bottom:.25rem;
+}
+
+.export-item p{
+  margin:0;
+  font-size:.95rem;
+}
