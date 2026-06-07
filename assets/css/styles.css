@@ -457,21 +457,33 @@ button, input, textarea, select { font: inherit; }
 .category-card span { color: var(--brown); font-weight: 850; text-transform: uppercase; letter-spacing: .08em; font-size: .72rem; }
 .category-card strong { font-size: 1.35rem; line-height: 1.12; margin-top: .4rem; }
 
-.contact-cta {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 1.5rem;
-  padding: clamp(1.4rem, 4vw, 2.4rem);
-  border-radius: var(--radius-xl);
+.contact-cta{
+  display:grid;
+  grid-template-columns:minmax(0, 1fr) auto;
+  align-items:center;
+  gap:2rem;
+  padding:clamp(1.8rem, 4vw, 3rem);
+  border-radius:var(--radius-xl);
   background:
     radial-gradient(circle at 90% 20%, rgba(237,229,216,.16), transparent 18rem),
     linear-gradient(135deg, rgba(139,90,43,.97), rgba(95,58,27,.98));
-  color: var(--cream);
-  box-shadow: var(--shadow);
+  color:var(--cream);
+  box-shadow:var(--shadow);
 }
-.contact-cta h2,
-.contact-cta p,
+
+.contact-cta h2{
+  max-width:760px;
+}
+
+.contact-cta p{
+  max-width:720px;
+}
+
+.contact-cta .btn{
+  min-width:170px;
+  white-space:nowrap;
+  align-self:center;
+}
 .contact-cta .eyebrow { color: var(--cream); }
 .contact-cta .eyebrow::before { background: var(--cream); }
 
