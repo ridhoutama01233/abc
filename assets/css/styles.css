@@ -1304,3 +1304,108 @@ textarea:focus { border-color: var(--brown); box-shadow: 0 0 0 4px rgba(139,90,4
     object-fit:contain !important;
   }
 }
+
+.home-product-grid{
+  display:grid;
+  grid-template-columns:repeat(4, minmax(0, 1fr));
+  gap:1.1rem;
+}
+
+.home-product-card{
+  overflow:hidden;
+  border-radius:24px;
+  background:linear-gradient(145deg, rgba(237,229,216,.96), rgba(255,250,241,.78));
+  border:1px solid rgba(139,90,43,.14);
+  box-shadow:var(--soft-shadow);
+  transition:transform .25s ease, box-shadow .25s ease;
+}
+
+.home-product-card:hover{
+  transform:translateY(-5px);
+  box-shadow:0 22px 50px rgba(61,38,19,.14);
+}
+
+.home-product-image{
+  position:relative;
+  height:150px;
+  overflow:hidden;
+}
+
+.home-product-image::after{
+  content:"↗";
+  position:absolute;
+  top:.85rem;
+  right:.85rem;
+  width:34px;
+  height:34px;
+  display:grid;
+  place-items:center;
+  border-radius:50%;
+  background:rgba(255,250,241,.9);
+  color:var(--brown);
+  font-weight:950;
+}
+
+.home-product-image img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+  transition:transform .35s ease;
+}
+
+.home-product-card:hover .home-product-image img{
+  transform:scale(1.05);
+}
+
+.home-product-body{
+  padding:1.15rem;
+}
+
+.home-product-label{
+  display:inline-block;
+  margin-bottom:.55rem;
+  color:var(--brown);
+  font-size:.72rem;
+  font-weight:950;
+  text-transform:uppercase;
+  letter-spacing:.09em;
+}
+
+.home-product-body h3{
+  min-height:2.5em;
+  font-size:1.18rem;
+  margin-bottom:.65rem;
+}
+
+.home-product-body p{
+  min-height:4.8em;
+  font-size:.92rem;
+  margin-bottom:1rem;
+}
+
+.home-product-body a{
+  color:var(--brown);
+  font-weight:950;
+}
+
+@media(max-width:1040px){
+  .home-product-grid{
+    grid-template-columns:repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media(max-width:620px){
+  .home-product-grid{
+    grid-template-columns:1fr;
+  }
+
+  .home-product-image{
+    height:180px;
+  }
+
+  .home-product-body h3,
+  .home-product-body p{
+    min-height:auto;
+  }
+}
