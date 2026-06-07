@@ -1790,3 +1790,15 @@ textarea:focus { border-color: var(--brown); box-shadow: 0 0 0 4px rgba(139,90,4
     font-size: 0.8rem;
   }
 }
+
+/* ================================
+   Product Inquiry Details Card
+================================ */
+
+.inquiry-details-card .check-list {
+  margin-bottom: 1.4rem;
+}
+
+.inquiry-details-card .btn {
+  margin-top: 0.5rem;
+}
