@@ -1802,3 +1802,12 @@ textarea:focus { border-color: var(--brown); box-shadow: 0 0 0 4px rgba(139,90,4
 .inquiry-details-card .btn {
   margin-top: 0.5rem;
 }
+
+/* ================================
+   Product Inquiry Section Spacing
+================================ */
+
+.product-inquiry-section {
+  padding-bottom: clamp(5rem, 8vw, 7rem);
+  margin-bottom: 0;
+}
