@@ -1296,3 +1296,11 @@ textarea:focus { border-color: var(--brown); box-shadow: 0 0 0 4px rgba(139,90,4
     width:100%;
   }
 }
+
+@media(max-width:768px){
+  .brand-strip .banner-card img{
+    aspect-ratio:auto !important;
+    height:auto !important;
+    object-fit:contain !important;
+  }
+}
