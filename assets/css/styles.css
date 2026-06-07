@@ -1811,3 +1811,6 @@ textarea:focus { border-color: var(--brown); box-shadow: 0 0 0 4px rgba(139,90,4
   padding-bottom: clamp(5rem, 8vw, 7rem);
   margin-bottom: 0;
 }
+.product-inquiry-section + .site-footer {
+  margin-top: 0;
+}
