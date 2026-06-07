@@ -1802,3 +1802,17 @@ textarea:focus { border-color: var(--brown); box-shadow: 0 0 0 4px rgba(139,90,4
 .inquiry-details-card .btn {
   margin-top: 0.5rem;
 }
+
+/* ================================
+   Process Export Docs Card
+================================ */
+
+.process-docs-card .check-list {
+  margin-bottom: 1.6rem;
+}
+
+.process-docs-card .btn {
+  margin-top: 0.6rem;
+  min-height: 54px;
+  border-radius: 16px;
+}
