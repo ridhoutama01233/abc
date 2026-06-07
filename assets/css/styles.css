@@ -805,3 +805,51 @@ textarea:focus { border-color: var(--brown); box-shadow: 0 0 0 4px rgba(139,90,4
     padding-top: 6.5rem;
   }
 }
+
+@media (max-width:768px){
+
+  .site-header{
+    background:transparent;
+    box-shadow:none;
+    border:none;
+    padding:14px 16px;
+  }
+
+  .navbar{
+    background:transparent !important;
+    border:none !important;
+    box-shadow:none !important;
+    border-radius:0 !important;
+    min-height:48px;
+    padding:0;
+  }
+
+  .brand img{
+    width:36px;
+    height:36px;
+  }
+
+  .brand span{
+    display:none;
+  }
+
+  .nav-toggle{
+    background:transparent !important;
+    border:none !important;
+    box-shadow:none !important;
+    width:auto;
+    height:auto;
+    padding:0;
+  }
+
+  .nav-toggle span{
+    width:22px;
+    height:2px;
+    background:#8b5a2b;
+  }
+
+  .hero{
+    padding-top:85px;
+  }
+
+}
