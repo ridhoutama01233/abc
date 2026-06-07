@@ -664,8 +664,8 @@ textarea:focus { border-color: var(--brown); box-shadow: 0 0 0 4px rgba(139,90,4
 .site-footer p { color: rgba(255,255,255,.72); }
 .site-footer a { display: block; color: rgba(255,255,255,.78); margin: .45rem 0; font-weight: 700; transition: color .2s ease, transform .2s ease; }
 .site-footer a:hover { color: var(--cream); transform: translateX(3px); }
-.social-links { display: flex; gap: .5rem; flex-wrap: wrap; margin-top: .8rem; }
-.social-links a { display: inline-flex; margin: 0; padding: .5rem .65rem; border-radius: 12px; background: rgba(237,229,216,.12); }
+.social { display: flex; gap: .5rem; flex-wrap: wrap; margin-top: .8rem; }
+.social a { display: inline-flex; margin: 0; padding: .5rem .65rem; border-radius: 12px; background: rgba(237,229,216,.12); }
 .footer-bottom { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; border-top: 1px solid rgba(237,229,216,.18); margin-top: 2.5rem; padding-top: 1rem; color: rgba(255,255,255,.68); font-size: .92rem; }
 
 /* Animation hooks */
@@ -904,7 +904,7 @@ textarea:focus { border-color: var(--brown); box-shadow: 0 0 0 4px rgba(139,90,4
 
 @media (max-width:768px){
 
-  .site-footer .social-links{
+  .site-footer .social{
     display:flex !important;
     flex-direction:row !important;
     align-items:center !important;
@@ -912,7 +912,7 @@ textarea:focus { border-color: var(--brown); box-shadow: 0 0 0 4px rgba(139,90,4
     margin-top:10px !important;
   }
 
-  .site-footer .social-links a{
+  .site-footer .social a{
     display:inline-flex !important;
     width:34px !important;
     height:34px !important;
@@ -932,7 +932,7 @@ textarea:focus { border-color: var(--brown); box-shadow: 0 0 0 4px rgba(139,90,4
 
 @media (max-width:768px){
 
-  .site-footer .social-links,
+  .site-footer .social,
   .site-footer .footer-social,
   .site-footer [class*="social"]{
     display:flex !important;
@@ -943,7 +943,7 @@ textarea:focus { border-color: var(--brown); box-shadow: 0 0 0 4px rgba(139,90,4
     gap:14px !important;
   }
 
-  .site-footer .social-links a,
+  .site-footer .social a,
   .site-footer .footer-social a,
   .site-footer [class*="social"] a{
     display:inline-flex !important;
