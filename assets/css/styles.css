@@ -371,7 +371,7 @@ button, input, textarea, select { font: inherit; }
 }
 .banner-card img { width: 100%; aspect-ratio: 16 / 5.5; object-fit: cover; }
 .soft-panel {
-  background: linear-gradient(135deg, rgba(237,229,216,.88), rgba(237,229,216,.55));
+  background:;
   border-block: 1px solid rgba(139,90,43,.08);
 }
 .section-head { max-width: 760px; margin-bottom: 2.2rem; }
