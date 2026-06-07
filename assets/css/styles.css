@@ -1138,3 +1138,86 @@ textarea:focus { border-color: var(--brown); box-shadow: 0 0 0 4px rgba(139,90,4
   margin:0;
   font-size:.95rem;
 }
+
+.section-intro{
+  max-width:760px;
+  margin:1rem auto 0;
+  text-align:center;
+}
+
+.management-grid{
+  max-width:900px;
+  margin:3rem auto 0;
+  display:grid;
+  gap:1.2rem;
+}
+
+.management-card{
+  display:flex;
+  align-items:center;
+  gap:1.5rem;
+
+  padding:1.4rem;
+  border-radius:24px;
+
+  background:linear-gradient(
+    145deg,
+    rgba(237,229,216,.95),
+    rgba(255,250,241,.82)
+  );
+
+  border:1px solid rgba(139,90,43,.12);
+  box-shadow:var(--soft-shadow);
+}
+
+.management-avatar{
+  width:90px;
+  height:90px;
+
+  flex-shrink:0;
+
+  border-radius:20px;
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  background:rgba(139,90,43,.08);
+}
+
+.management-avatar i{
+  font-size:2rem;
+  color:var(--brown);
+}
+
+.management-info span{
+  display:block;
+  color:var(--brown);
+  font-size:.85rem;
+  font-weight:800;
+  margin-bottom:.4rem;
+  text-transform:uppercase;
+  letter-spacing:.08em;
+}
+
+.management-info h3{
+  margin:0;
+}
+
+@media(max-width:640px){
+
+  .management-card{
+    gap:1rem;
+    padding:1.1rem;
+  }
+
+  .management-avatar{
+    width:70px;
+    height:70px;
+  }
+
+  .management-avatar i{
+    font-size:1.5rem;
+  }
+
+}
