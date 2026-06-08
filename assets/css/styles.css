@@ -1976,3 +1976,19 @@ body[data-page="contact"] .page-hero::after {
   border-radius:999px;
   background:rgba(237,229,216,.45);
 }
+
+.process-preview .cta-row{
+  justify-content:center;
+  width:100%;
+  margin-top:2.4rem;
+}
+
+@media(max-width:768px){
+  .process-preview .cta-row{
+    margin-top:1.6rem;
+  }
+
+  .process-preview .process-cta{
+    width:100%;
+  }
+}
