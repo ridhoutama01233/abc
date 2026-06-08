@@ -1982,3 +1982,105 @@ body[data-page="contact"] .page-hero::after {
     transform:translate3d(-18px,16px,118px);
   }
 }
+
+.token-coffee{
+  left:-2%;
+  top:26%;
+  animation:tokenA 5.8s ease-in-out infinite;
+}
+
+.token-spice{
+  right:-3%;
+  top:38%;
+  animation:tokenB 6.5s ease-in-out infinite;
+}
+
+.token-craft{
+  left:16%;
+  bottom:8%;
+  animation:tokenC 7s ease-in-out infinite;
+}
+
+.token-agri{
+  right:14%;
+  bottom:16%;
+  animation:tokenD 6.8s ease-in-out infinite;
+}
+
+@keyframes sceneFloat{
+  0%,100%{
+    transform:translateY(0) rotateX(0deg) rotateY(0deg);
+  }
+
+  50%{
+    transform:translateY(-18px) rotateX(3deg) rotateY(-5deg);
+  }
+}
+
+@keyframes logoPulse{
+  0%,100%{
+    transform:scale(1);
+  }
+
+  50%{
+    transform:scale(1.045);
+  }
+}
+
+@keyframes orbitOne{
+  to{
+    transform:rotateX(66deg) rotateZ(360deg);
+  }
+}
+
+@keyframes orbitTwo{
+  to{
+    transform:rotateY(67deg) rotateZ(395deg);
+  }
+}
+
+@keyframes orbitThree{
+  to{
+    transform:rotateX(78deg) rotateY(32deg) rotateZ(360deg);
+  }
+}
+
+@keyframes tokenA{
+  0%,100%{
+    transform:translate3d(0,0,70px);
+  }
+
+  50%{
+    transform:translate3d(22px,-16px,120px);
+  }
+}
+
+@keyframes tokenB{
+  0%,100%{
+    transform:translate3d(0,0,90px);
+  }
+
+  50%{
+    transform:translate3d(-26px,18px,130px);
+  }
+}
+
+@keyframes tokenC{
+  0%,100%{
+    transform:translate3d(0,0,60px);
+  }
+
+  50%{
+    transform:translate3d(18px,-18px,110px);
+  }
+}
+
+@keyframes tokenD{
+  0%,100%{
+    transform:translate3d(0,0,78px);
+  }
+
+  50%{
+    transform:translate3d(-18px,14px,122px);
+  }
+}
