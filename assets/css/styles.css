@@ -1966,3 +1966,13 @@ body[data-page="contact"] .page-hero::after {
   }
 
 }
+
+.site-footer h3::after{
+  content:"";
+  display:block;
+  width:28px;
+  height:2px;
+  margin-top:.45rem;
+  border-radius:999px;
+  background:rgba(237,229,216,.45);
+}
