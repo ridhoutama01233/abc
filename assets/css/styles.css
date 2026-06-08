@@ -1966,3 +1966,19 @@ body[data-page="contact"] .page-hero::after {
   }
 
 }
+
+.token-agri{
+  right:18%;
+  bottom:12%;
+  animation:tokenD 6.8s ease-in-out infinite;
+}
+
+@keyframes tokenD{
+  0%,100%{
+    transform:translate3d(0,0,75px);
+  }
+
+  50%{
+    transform:translate3d(-18px,16px,118px);
+  }
+}
