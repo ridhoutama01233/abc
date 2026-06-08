@@ -1894,3 +1894,23 @@ textarea:focus { border-color: var(--brown); box-shadow: 0 0 0 4px rgba(139,90,4
     border-radius: 13px;
   }
 }
+
+/* About CTA */
+.about-cta-buttons {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .about-cta-buttons {
+    flex-direction: column;
+    gap: 1.1rem;
+  }
+
+  .about-cta-buttons .btn {
+    width: 100%;
+  }
+}
