@@ -1938,3 +1938,29 @@ textarea:focus { border-color: var(--brown); box-shadow: 0 0 0 4px rgba(139,90,4
   opacity: .12;
   pointer-events: none;
 }
+
+body[data-page="about"] .page-hero::after {
+  background-image: url("../img/hero-about-global-export.webp");
+}
+
+body[data-page="product"] .page-hero::after {
+  background-image: url("../img/hero-product-catalog.webp");
+}
+
+body[data-page="process"] .page-hero::after {
+  background-image: url("../img/hero-process-export-flow.webp");
+}
+
+body[data-page="contact"] .page-hero::after {
+  background-image: url("../img/hero-contact-inquiry.webp");
+}
+
+@media (max-width:768px){
+
+  .page-hero::after{
+    background-position:center center;
+    background-size:cover;
+    opacity:.07;
+  }
+
+}
