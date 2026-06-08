@@ -261,7 +261,7 @@ button, input, textarea, select { font: inherit; }
   gap: .55rem;
   min-height: 48px;
   padding: .86rem 1.18rem;
-  border-radius: 14px;
+  border-radius: 60px;
   border: 1px solid transparent;
   font-weight: 950;
   cursor: pointer;
@@ -1062,7 +1062,7 @@ textarea:focus { border-color: var(--brown); box-shadow: 0 0 0 4px rgba(139,90,4
   gap:.8rem;
   min-height:54px;
   padding:.95rem 1.35rem;
-  border-radius:999px;
+  border-radius:60px;
   background:linear-gradient(135deg, var(--brown), var(--brown-dark));
   color:#fff7ec;
   font-weight:950;
@@ -1120,7 +1120,7 @@ textarea:focus { border-color: var(--brown); box-shadow: 0 0 0 4px rgba(139,90,4
 
   .process-cta{
     width:100%;
-    border-radius:16px;
+    border-radius:60px;
   }
 }
 
